@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9699c064e3.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="Css/mainCssSncf.css">
+	<title>Réservation SNCF</title>
+</head>
+
+<body>
+	<main>
+		<header class="entete">
+			<div class="entete1">
+				<p>Voyageurs/ Billets & Info trajets/</p>
+				<div class="icon-header">
+					<i class="fas fa-print"></i>
+					<i class="fas fa-project-diagram"></i>
+				</div>
+			</div>
+
+			<div class="entete2">
+				<h1>réservation</h1>
+				
+				<img src="images/logo-voyage-sncf.jpg" alt="voyages-sncf.com">
+			</div>
+		</header>
+
+
+		<form class="wrapper-formulaire" action="">
+
+
+			<div class="row1">
+				<span class="espace_dédié">
+					<i class="fas fa-wheelchair"> &nbsp;</i>Voyageur handicapé, rendez-vous sur votre &nbsp;<a class="sous-titres" href="#">espace dédié.</a></span> 
+				<a class="gérer_reservation " href="#">gérer mes réservations ></a>
+			</div>
+
+
+			<div class="row2">
+				<p class="sous-titres">* Champs obligatoires</p>
+				<div class="content-color wrapper-aller-retour">
+					<input type="checkbox" name="aller-retour" id="aller-retour" />
+					<label for="aller-retour">Aller et retour différents</label>
+				</div>
+			</div>
+			
+
+			<div class="row3">
+				<div class="départ-input">
+					<label for="départ">Départ *</label>
+					<input type="text" name="départ" id="départ">
+				</div>
+				<div class="arrivée-input">
+					<label for="arrivée">Arrivée *</label>
+					<input type="text" name="arrivée" id="arrivée">
+				</div>
+			</div>
+
+
+			<div class="row4">
+				<div class="wrapper-allerle">
+					<label for="allerle">Aller le *</label>
+					<div class="sous-wrapper-aller-le">
+						<input type="date" name="allerle" id="allerle">
+						<select name="arrivée_départ" class="arrivée_départ">
+						    <option value="10h">Départ à</option>
+						    <option value="11h">Arrivée à</option>
+						</select>
+						<select name="Départ_heure_aller" id="Départ_heure_aller">
+						    <option value="10h">10h</option>
+						    <option value="11h">11h</option>
+						    <option value="12h">12h</option>
+						    <option value="13h">13h</option>
+						    <option value="14h">14h</option>
+						    <option value="15h">15h</option>
+						    <option value="16h">16h</option>
+						    <option value="17h">17h</option>
+						    <option value="18h">18h</option>
+						    <option value="19h">19h</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="wrapper-retourle">
+					<label for="retourle">Retour le *</label>
+					<div class="sous-wrapper-retour-le">
+						<input type="date" name="retourle" id="retourle">
+						<select name="arrivée_départ" class="arrivée_départ">
+						    <option value="10h">Départ à</option>
+						    <option value="11h">Arrivée à</option>
+						</select>
+						<select name="Départ_heure_retour" id="Départ_heure_retour">
+						    <option value="10h">10h</option>
+						    <option value="11h">11h</option>
+						    <option value="12h">12h</option>
+						    <option value="13h">13h</option>
+						    <option value="14h">14h</option>
+						    <option value="15h">15h</option>
+						    <option value="16h">16h</option>
+						    <option value="17h">17h</option>
+						    <option value="18h">18h</option>
+						    <option value="19h">19h</option>
+						</select>
+					</div>
+				</div>
+			</div >
+
+				
+			<div class="row5">
+				<div class="wrapper-trajet-direct">
+					<input type="checkbox" name="trajet-direct" />
+					<span>Trajet direct</span>
+				</div>
+					
+				<div class="wrapper-trajet-via">
+					<label for="mi-space">Ou trajet via</label>
+					<input type="text" name="trajet_via" id="mi-space">
+				</div>
+					
+			</div>
+			<div class="row6">
+				<span>Confort</span>
+				<input type="radio" name="1er_classe" id="1er_classe" /><label for="1er_classe">1er classe</label>
+				<input type="radio" name="2nde_classe" id="2nde_classe" /><label for="2nde_classe">2nde classe</label>
+			</div>
+
+			<div class="row7">
+				<div class="wrapper-nbrepassager">
+					<h2>Passagers</h2>
+					<select name="Passager" id="passager">
+					    <option value="1">1</option>
+					    <option value="2">2</option>
+					    <option value="3">3</option>
+					    <option value="4">4</option>
+					    <option value="5">+5</option>
+					</select>
+				</div>
+				<a href="">Plus de 9 passagers ></a>
+			</div>
+
+			<div class="row8 content-color ">
+				<h3 class="passagernum1"> passager 1</h3>
+				<div class="profilpassager">
+					<label for="Départ_heure_retour">Profil du passager</label>
+					<select name="Départ_heure_retour" id="Départ_heure_retour">
+					    <option value="-25ans">-25 ans</option>
+					    <option value="26-59 ans">26-59 ans</option>
+					    <option value="60-90ans">60-90ans</option>
+					</select>
+				</div>
+				<div class="carte-abonnement">
+					<label for="Départ_heure_retour">Carte et Abonnement</label>
+					<select name="Départ_heure_retour" id="Départ_heure_retour">
+					    <option value="Carte jeune">Carte jeune</option>
+					    <option value="Carte senior">Carte senior</option>
+					    <option value="Aucun">Aucun</option>
+					    
+					</select>
+					<label for="code_avantage">Code avantage</label>
+					<input class="code_avantage"type="text" name="code_avantage" placeholder="Saississez ici votre code">
+
+				</div>
+				<div class="fidélité">
+					<label for="Programme fidélité">Programme fidélité</label>
+					<select name="Programme fidélité" id="Programme fidélité">
+					    <option value="Programme+">Programme+</option>
+					    <option value="Programme++">Programme++</option>
+					    <option value="Aucun">Aucun</option>
+					    
+					</select>
+				</div>
+			</div>
+
+			<div class="row9">
+				<span>></span>
+				<p>Voyager avec votre animal de compagnie</p>
+			</div>
+
+			<div class="row10">
+				<input class="horaires_seules" type="button" name="horaires_seules" value="Horaires seules">
+				<input class="rechercher" type="button" name="Rechercher" value="Rechercher">
+			</div>
+
+			<div class="Informations-co2">
+				<a href="#" >Informations sur les emissions de CO2 ></a>
+			</div>
+
+			
+
+		</form>
+		
+	</main>
+</body>
+</html>

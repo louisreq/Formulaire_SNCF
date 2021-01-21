@@ -1,0 +1,146 @@
+body {
+	color: #4D4D4D;
+	width: 50%;
+	margin: auto;
+}
+h1{
+	text-transform: uppercase;
+	font-size: 36px;
+}
+h3{
+	text-transform: uppercase;
+}
+h2{
+	margin: 0;
+	padding-right: 15px;
+}
+.passagernum1 {
+	border-bottom: solid 0.5px #e2e2e2
+}
+.wrapper-formulaire, .row9{
+	border-top: solid 0.5px #e2e2e2
+}
+.wrapper-row{
+	margin-left: 15px;
+}
+.entete{
+	position: relative;
+}
+.wrapper-nbrepassager{
+	
+	display: flex;
+}
+.fas{
+	padding-top: 10px;
+}
+
+
+.entete1,.entete2, .row7, .row10,.row5{
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+    
+}
+
+.row1{
+	display: flex;
+	justify-content: space-between;
+}
+
+.iconhandicap{
+	width: 20px;
+	align-items: center;
+	justify-content: center;
+}
+.gérer_reservation{
+	
+	text-transform: uppercase;
+
+}
+a{
+	margin-top: 1em;
+	text-decoration: none;
+	color: #ff0074;
+
+}
+
+.content-color{
+	background-color: #8080802b;
+}
+.wrapper-aller-retour{
+	padding: 10px;
+}
+input[type="text"]{
+	width: 90%;
+	height: 25px;
+	margin: 10px 10px 10px 0;
+}
+.départ-input, .arrivée-input,.wrapper-allerle, .wrapper-retourle {
+	width: 50%;
+}
+..wrapper-trajet-direct{
+	width: 30%
+}
+.row3, .row4, .row6, .row7, .row9{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.sous-wrapper-retour-le, .sous-wrapper-aller-le{
+	width: 100%;
+}
+h3{
+	color: #ff0074;
+	text-transform:uppercase;
+	margin: 0;
+}
+.row8{
+	padding: 10px;
+
+}
+.wrapper-trajet-via{
+	width: 70%;
+}
+#mi-space{
+	width: 70% !important;
+	margin: 10px 10px 10px 0;
+}
+.row6{
+	border-bottom: solid 0.5px #e2e2e2;
+	border-top: solid 0.5px #e2e2e2;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.row8 > div{
+	margin: 10px;
+}
+.row9 > span{
+	color: #ff0074;
+	padding-right: 5px;
+}
+.code_avantage{
+	width: 40% !important;
+}
+.Informations-co2{
+	position: relative;
+   }
+.Informations-co2 >a{
+position: absolute;
+right: 0%;
+padding-bottom: 40px;
+} 
+.horaires_seules, .rechercher{
+	border: solid 0.5px #e2e2e2;
+	border-radius: 10px;
+	padding: 10px;
+}
+.rechercher{
+	background-color: #ff0074;
+	color: white;
+}
+.horaires_seules{
+	color: 	#ff0074;
+}
